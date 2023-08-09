@@ -86,7 +86,7 @@ export const deleteMasyarakat = async (req, res) => {
 
         const Masyarakat = await Masyarakat.findOne({
             where: {
-                id: MasyarakatId
+                id: Masyarakat.Id
             }
         });
 
